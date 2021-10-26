@@ -1,0 +1,45 @@
+.leftArrowBox {
+  width: 80px;
+  height: 80px;
+  background-color: grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 6;
+}
+
+.rightArrowBox {
+  width: 80px;
+  height: 80px;
+  background-color: grey;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(50%, -50%);
+  z-index: 6;
+}
+
+.arrowLeft {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translate(-50%, -50%);
+}
+
+.leftArrowBox:hover,
+.rightArrowBox:hover {
+  cursor: pointer;
+}
+
+.arrowRight {
+  color: white;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translate(50%, -50%);
+}

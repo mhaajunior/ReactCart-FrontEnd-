@@ -1,0 +1,90 @@
+.basketSection {
+  width: 70%;
+}
+
+.tableContainer {
+  overflow-x: auto;
+}
+
+table {
+  border-collapse: collapse;
+  table-layout: fixed;
+  min-width: 500px;
+}
+
+th,
+td {
+  padding: 20px 10px;
+  text-align: left;
+  border-bottom: 2px solid rgb(230, 228, 228);
+  vertical-align: top;
+}
+
+td:nth-child(1),
+th:nth-child(1) {
+  width: 400px;
+  padding-left: 0;
+}
+td:nth-child(2),
+th:nth-child(2) {
+  width: 190px;
+}
+td:nth-child(3),
+th:nth-child(3) {
+  width: 190px;
+}
+td:nth-child(4),
+th:nth-child(4) {
+  width: 190px;
+}
+td:nth-child(5),
+th:nth-child(5) {
+  width: 50px;
+  position: relative;
+}
+
+.btnContainer {
+  display: flex;
+  margin-top: 40px;
+}
+
+.cartBtn {
+  padding: 10px 20px;
+  margin-right: 20px;
+  text-align: center;
+  width: 150px;
+  border: 1px solid black;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.cartBtn:hover {
+  cursor: pointer;
+}
+
+.buyNext {
+  color: black;
+}
+
+.clearAll {
+  background-color: black;
+  color: white;
+}
+
+.noData {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  font-size: 25px;
+  border: 1px solid rgb(206, 204, 204);
+  border-radius: 15px;
+}
+
+@media screen and (max-width: 1525px) {
+  .basketSection {
+    width: 100%;
+  }
+}

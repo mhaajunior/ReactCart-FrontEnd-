@@ -1,0 +1,58 @@
+.invoiceBox {
+  margin-left: auto;
+  width: 22%;
+  background-color: rgba(200, 222, 250, 0.2);
+  padding: 25px;
+  font-weight: bold;
+  max-height: 350px;
+}
+
+.invoiceWrap {
+  width: 100%;
+  padding-bottom: 50px;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: bold;
+  padding-bottom: 30px;
+}
+
+.detailBox {
+  display: flex;
+  justify-content: space-between;
+  line-height: 2.5;
+  align-items: center;
+}
+
+.order {
+  padding-bottom: 15px;
+  border-bottom: 1px solid rgb(197, 196, 196);
+  margin-bottom: 20px;
+}
+
+.orderBtn {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  margin-top: 20px;
+  justify-content: center;
+  height: 28px;
+  background-color: blue;
+  color: white;
+  border-radius: 25px;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.orderBtn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1525px) {
+  .invoiceBox {
+    margin-right: auto;
+    margin-top: 30px;
+    width: 300px;
+  }
+}

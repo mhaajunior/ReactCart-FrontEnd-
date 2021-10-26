@@ -1,0 +1,89 @@
+.formSection {
+  margin: 20px 0 50px;
+  display: block;
+}
+
+.formTitle {
+  font-weight: bold;
+  padding: 15px 0;
+  border-bottom: 2px solid rgb(223, 221, 221);
+  margin-bottom: 15px;
+}
+
+.inputGroup {
+  width: 80%;
+}
+
+.flexBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flexItem {
+  width: 45%;
+}
+
+.cashBox {
+  margin: 20px 0;
+  border: 1px solid grey;
+  height: 65px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  padding: 25px;
+}
+
+input[type='radio'] {
+  width: 5%;
+  height: 30px;
+}
+
+.cashText {
+  width: 75%;
+  padding-left: 50px;
+  font-size: 22px;
+}
+
+.cashPrice {
+  width: 20%;
+  text-align: right;
+  padding-right: 30px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.cashBtn {
+  padding-right: 15px;
+}
+
+.kerry {
+  height: 180px;
+}
+
+.cashImg {
+  width: 75%;
+  padding-left: 12px;
+}
+
+.active {
+  border-color: blue;
+}
+
+input[type='radio']:hover {
+  cursor: pointer;
+}
+
+.address {
+  color: red;
+  font-size: 12px;
+}
+
+form {
+  width: 70%;
+}
+
+@media screen and (max-width: 1525px) {
+  form {
+    width: 100%;
+  }
+}

@@ -1,0 +1,9 @@
+.yellowStar {
+  color: rgba(255, 187, 0, 0.966);
+  padding-right: 5px;
+}
+
+.greyStar {
+  color: rgb(204, 203, 203);
+  padding-right: 5px;
+}

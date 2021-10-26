@@ -1,0 +1,217 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 80px;
+  width: 100%;
+  border-bottom: 1px solid #e4e4e4;
+  z-index: 10;
+  background-color: white;
+}
+
+.bgBox {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 84px;
+  width: 100%;
+  background: linear-gradient(0deg, #f7f4f4, transparent 50%) bottom;
+  z-index: 8;
+}
+
+.navWrapper {
+  display: flex;
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+.navBoxLeft {
+  display: flex;
+  align-items: center;
+  width: 88%;
+}
+
+.navBoxRight {
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  width: 12%;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+li {
+  display: flex;
+  padding: 0 20px;
+  font-size: 1.2em;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  font-size: 2.4em;
+  font-weight: 700;
+  padding-right: 60px;
+}
+
+.profileImgBox {
+  position: relative;
+  width: 40px;
+  height: 40px;
+  overflow: hidden;
+  border-radius: 50%;
+}
+
+.profileImg {
+  width: 55px;
+  height: 55px;
+  object-fit: contain;
+  position: absolute;
+  left: -7px;
+}
+
+.hoverIcon:hover,
+.inputSearch:hover {
+  cursor: pointer;
+}
+
+input[type='text'] {
+  width: 90%;
+  height: 65%;
+  padding: 0 30px;
+  border-radius: 25px;
+  border: 1px solid #eaeaea;
+  background-color: #eaeaea;
+}
+
+input[type='text']:focus {
+  outline: none;
+}
+
+.inputWrap {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.inputSearch {
+  color: blue;
+  position: absolute;
+  right: 80px;
+}
+
+.tooltipContainer {
+  position: absolute;
+  width: 320px;
+  text-align: center;
+  line-height: 1.8;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 20px 0;
+  background-color: white;
+  z-index: 100;
+  top: 40px;
+  right: -110px;
+}
+
+.basketTitle {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.basketStatus {
+  color: grey;
+  padding-bottom: 20px;
+  font-size: 12px;
+}
+
+.basketPrice {
+  color: grey;
+  font-weight: bold;
+  font-size: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.cartIcon {
+  position: relative;
+}
+
+.badge {
+  position: absolute;
+  top: -10px;
+  right: 10px;
+  font-size: 7px;
+  background-color: blue;
+  color: white;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+}
+
+.cartBtn {
+  font-size: 15px;
+}
+
+.checkoutBtn {
+  background-color: blue !important;
+  color: white !important;
+  font-size: 15px;
+}
+
+.arrow {
+  position: absolute;
+  font-size: 20px;
+  color: rgb(196, 195, 195);
+  top: 30px;
+  right: 25px;
+}
+
+@media screen and (max-width: 1600px) and (min-width: 886px) {
+  .inputWrap {
+    width: 500px;
+  }
+}
+
+@media screen and (max-width: 885px) and (min-width: 711px) {
+  .inputWrap {
+    width: 400px;
+  }
+  .logo {
+    padding-right: 10px;
+  }
+  li {
+    padding: 0 10px;
+  }
+}
+
+@media screen and (max-width: 710px) {
+  .inputWrap {
+    width: 200px;
+  }
+  .leftUl {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 1086px) {
+  .navWrapper {
+    width: 100%;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+}

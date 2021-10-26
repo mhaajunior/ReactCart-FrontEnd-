@@ -1,0 +1,11 @@
+.label {
+  display: block;
+  margin: 10px 0;
+}
+
+.input {
+  background-color: white !important;
+  border-color: rgb(182, 181, 181) !important;
+  width: 100% !important;
+  height: 40px !important;
+}

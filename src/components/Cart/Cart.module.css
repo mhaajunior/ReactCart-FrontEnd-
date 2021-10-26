@@ -1,0 +1,19 @@
+.cartContainer {
+  margin-top: 60px;
+}
+
+.cartHeader {
+  font-size: 35px;
+  font-weight: bold;
+  padding-bottom: 20px;
+}
+
+.cartDetail {
+  display: flex;
+}
+
+@media screen and (max-width: 1525px) {
+  .cartDetail {
+    display: block;
+  }
+}

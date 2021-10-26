@@ -1,0 +1,33 @@
+.fBox {
+  display: flex;
+}
+
+.imgBox {
+  height: 150px;
+  width: 150px;
+  padding: 0 20px;
+  object-fit: contain;
+}
+
+.deletetBtn {
+  top: 20px;
+}
+
+.deleteBtn:hover {
+  color: red;
+  border-color: red;
+}
+
+.editBtn {
+  top: 65px;
+}
+
+.editBtn:hover {
+  color: orange;
+  border-color: orange;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 18px;
+}

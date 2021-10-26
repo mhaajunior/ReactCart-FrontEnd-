@@ -1,0 +1,8 @@
+.carouselContainer {
+  background-color: rgb(177, 177, 177);
+  position: relative;
+  height: 70vh;
+  position: relative;
+  overflow: hidden;
+  z-index: 9;
+}

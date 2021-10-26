@@ -1,0 +1,153 @@
+.card {
+  width: 20%;
+  position: relative;
+  z-index: 5;
+  padding-bottom: 15px;
+}
+
+.card:hover {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  z-index: 8;
+}
+
+.status {
+  font-size: 12px;
+  padding: 15px 35px;
+  display: inline-block;
+}
+
+.valid {
+  color: green;
+}
+
+.invalid {
+  color: red;
+}
+
+.bookImageBox {
+  width: 50%;
+  margin: auto;
+  height: 200px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.bookImage {
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  position: absolute;
+  left: -23px;
+}
+
+.detailSection {
+  padding: 0 30px;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.ratingBox {
+  padding-top: 10px;
+  display: flex;
+}
+
+.stars {
+  padding-right: 15px;
+}
+
+.review {
+  color: rgb(158, 157, 157);
+}
+
+.title {
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.price {
+  padding-top: 15px;
+  color: rgb(119, 118, 118);
+  text-decoration: line-through;
+}
+
+.discountPrice {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cartBtn {
+  width: 50%;
+  border: 2px solid blue;
+  padding: 8px 10px;
+  margin: auto;
+  text-align: center;
+  color: blue;
+  font-weight: bold;
+  border-radius: 20px;
+}
+
+.circleBtn {
+  border: 2px solid rgb(158, 157, 157);
+  display: inline-block;
+  padding: 5px;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  color: rgb(158, 157, 157);
+  position: absolute;
+}
+
+.heartBtn {
+  right: 10px;
+  top: 20px;
+}
+
+.statBtn {
+  right: 10px;
+  top: 60px;
+}
+
+.heartBtn:hover {
+  color: rgb(255, 78, 107);
+  border-color: rgb(255, 78, 107);
+}
+
+.statBtn:hover {
+  color: rgb(102, 238, 102);
+  border-color: rgb(102, 238, 102);
+}
+
+.cartBtn:hover,
+.circleBtn:hover {
+  cursor: pointer;
+}
+
+@media screen and (max-width: 1550px) and (min-width: 1241px) {
+  .card {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1240px) and (min-width: 966px) {
+  .card {
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 965px) and (min-width: 621px) {
+  .card {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 620px) {
+  .card {
+    width: 100%;
+  }
+}
